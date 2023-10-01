@@ -335,9 +335,10 @@ justify-content: center;
    .about{
     /* :grid-template-columns: repeat(2,1fr); */
     /* grid: repeat; */
-    /* display: flex; */
-    text-align: justify;
+    /* text-align: justify; */
     justify-content: center;
+    width: 70%;
+    margin-left: 200px;
    }
    .rang1{
     display: flex;
@@ -365,6 +366,28 @@ justify-content: center;
    }
    .num{
     margin-left: 30px;
+   }
+   .person{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid: repeat;
+    align-items: center;
+    /* overflow: hidden; */
+    gap: 0px;
+    text-align: center;
+    
+   }
+   .person img{
+    width: 80%;
+    height: 100%;
+    
+   }
+   .text-team{
+    text-align: center;
+   }
+   .text-team p{
+    color: #06A3D4;
+    size: bold;
    }
    
       
