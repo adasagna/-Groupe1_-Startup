@@ -207,13 +207,6 @@ header .texte .buttons button:nth-child(2) {
     justify-content: center;
     text-align: center;
  }
- hr{
-    display: flex;
- }
- .hr1{
-    display: flex;
-    justify-content: space-around
- }
  .gauche{
     width: 40px;
     margin-left: 630px;
@@ -230,14 +223,14 @@ header .texte .buttons button:nth-child(2) {
    
 .premier {
     display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid: repeat;
-        overflow: hidden;
-        justify-self: center;
-        gap: 20px;
-        padding: 0 8% 30px 8%;
-        box-sizing: border-box;
-        justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid: repeat;
+    overflow: hidden;
+    justify-self: center;
+    gap: 20px;
+    padding: 0 8% 30px 8%;
+    box-sizing: border-box;
+    justify-content: center;
 }
    
 
@@ -275,51 +268,103 @@ header .texte .buttons button:nth-child(2) {
 }
 /* ---Fin_our_service */
 .testi{
-    display: grid;
-        align-items: center;
-        /* grid: repeat; */
-        /* overflow: hidden; */
-        /* gap: 20px; */
-        /* padding: 0 8% 30px 8%; */
-        box-sizing: border-box;
-        justify-content: center;
-        /* margin: auto; */
+display: grid;
+align-items: center;
+ /* grid: repeat; */
+    /* overflow: hidden; */
+   /* gap: 20px; */
+   /* padding: 0 8% 30px 8%; */
+box-sizing: border-box;
+justify-content: center;
+    /* margin: auto; */
 }
-   .premier2{
-    display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid: repeat;
-        overflow: hidden;
-        justify-self: center;
-         /* gap: 20px; */
-         padding: 0 8% 30px 8%; 
-        box-sizing: border-box;
-        justify-content: center;
+.premier2{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid: repeat;
+ overflow: hidden;
+justify-self: center;
+ /* gap: 20px; */
+  padding: 0 8% 30px 8%; 
+   box-sizing: border-box;
+justify-content: center;
    }
-   .box2{
-       background-color: #EEF9FF;
-       text-align: center;
-       justify-content: center;
-       gap: none;
+    .box2{
+    background-color: #EEF9FF;
+    text-align: center;
+   justify-content: center;
+ gap: none;
    }
    .tof1{
     background-color: gray;
-    display: flex;
+    text-align: left;
+    /* display: flex; */
    }
    .tof2{
     background-color: white;
+    text-align: left;
     box-shadow: gray 2px 2px;
-    height: 162px; ;
+    /* height: 162px; ; */
     transform: scale(200px);
-       }
+    }
    .tof3{
     background-color: gray;
+    text-align: left;
    }
-   .log{
-    margin-left: 180px;
+   .log img {
+    margin-left: 95px;
+    width: 90%; height:(500)
    }
    img{
     width: 40px;
     height: 40px;
    }
+    .droite{
+    /* display: flex; */
+    grid-template-columns: repeat(2);
+    grid: repeat;
+    /* margin-left: -50px; */
+    width: 60%;
+    justify-content: space-between;
+    /* gap: 50px; */
+   }
+   .textpropos{
+    text-align: center;
+    color: black;
+   }
+   .about{
+    /* :grid-template-columns: repeat(2,1fr); */
+    /* grid: repeat; */
+    /* display: flex; */
+    text-align: justify;
+    justify-content: center;
+   }
+   .rang1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+    color: black;
+   }
+   .rang2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 320px;
+    color: black;
+   }
+   .gauche img{
+    width: 400px;
+    height: 100%;
+    margin-top: -400px;
+    margin-left: 200px;
+   }
+   button{
+    background-color: #06A3D4;
+    border: none;
+    width: 130px;
+    height: 30px;
+   }
+   .num{
+    margin-left: 30px;
+   }
+   
       
